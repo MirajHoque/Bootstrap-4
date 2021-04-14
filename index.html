@@ -2,7 +2,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,">
-    <title>Navigation</title>
+    <title>Toggleabl dynamic tab and pill</title>
     <!--
       <link rel="stylesheet" href="/css/bootstrap.min.css">
       //downloading bootstrap
@@ -178,6 +178,30 @@
         </div>
 
         <!--Review section ends here-->
+
+        <!--toggleable dynamic tabs start here-->
+
+        <div class="other-section">
+
+          <ul class="nav nav-pills">
+            <li class="nav-item"><a data-toggle="pill" class="nav-link active" href="#edu">Education</a></li>
+            <li class="nav-item"><a data-toggle="pill" class="nav-link" href="#skill">Skills</a></li>
+            <li class="nav-item"><a data-toggle="pill" class="nav-link" href="#hobby">Hobby</a></li>
+          </ul>
+
+          <div class="tab-content">
+
+            <div id="edu" class="tab-pane active"><p>1. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis sint ex velit voluptas enim atque numquam pariatur magni eius vel.</p></div>
+            <div id="skill" class="tab-pane fade"><p>2. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum praesentium veniam repudiandae facilis cum, culpa odit assumenda officiis temporibus necessitatibus!</p></div>
+            <div id="hobby" class="tab-pane fade"><p>3. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi tenetur accusamus dolore libero a rerum facere molestias odit, similique ratione.</p></div>
+
+          </div>
+
+          
+        </div>
+
+
+        <!--toggleable dynamic tabs end here-->
 
         <!--student list section start here-->
 
